@@ -27,12 +27,12 @@ author:
 menu:
   main:
     - identifier: author1
-      name: Dr. Priyanga D. Talagala
+      name: Priyanga's web
       pre: <i class="sidebar-button-icon fas fa-solid fa-hand-point-right" aria-hidden="true"></i>
       url: https://prital.netlify.app/
       weight: 1
     - identifier: author2
-      name: Dr. Thiyanga S. Talagala
+      name: Thiyanga's web
       pre: <i class="sidebar-button-icon fas fa-solid fa-hand-point-right" aria-hidden="true"></i>
       url: https://thiyanga.netlify.app/
       weight: 2
