@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RMarkdown on HelloRMarkdown</title>
+    <link>https://hellormd.netlify.app/categories/rmarkdown/</link>
+    <description>Recent content in RMarkdown on HelloRMarkdown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://hellormd.netlify.app/categories/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Additional Resources</title>
+      <link>https://hellormd.netlify.app/1/01/additional-resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hellormd.netlify.app/1/01/additional-resources/</guid>
+      <description>Online Books to Learn R and Data Science
+  Data Analysis with R Programming Language by Thiyanga Talagala and Priyanga Talagala 
+These materials are designed and developed for a trainer-led workshop conducted by Thiyanga Talagala and Priyanga Talagala, but should be useful for self-guided learning as well.
+  R for Data Science by by Hadley Wickham and Garrett Grolemund
+This is a great data science book for beginners interested in learning data science with R.</description>
+    </item>
+    
+  </channel>
+</rss>

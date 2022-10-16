@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hellormd.netlify.app/categories/</loc>
-    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hellormd.netlify.app/2022/10/code-of-conduct/</loc>
-    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hellormd.netlify.app/categories/features/</loc>
-    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://hellormd.netlify.app/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -29,11 +20,20 @@
     <loc>https://hellormd.netlify.app/tags/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hellormd.netlify.app/categories/tranquilpeak/</loc>
-    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://hellormd.netlify.app/2022/10/welcome-to-the-workshop-on-reproducible-research-with-r-markdown/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hellormd.netlify.app/categories/</loc>
+    <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hellormd.netlify.app/2022/10/code-of-conduct/</loc>
+    <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hellormd.netlify.app/categories/features/</loc>
+    <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hellormd.netlify.app/categories/tranquilpeak/</loc>
+    <lastmod>2022-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hellormd.netlify.app/2020/12/hello-r-markdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
@@ -59,6 +59,10 @@
     <loc>https://hellormd.netlify.app/tags/markdown/</loc>
     <lastmod>2015-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://hellormd.netlify.app/1/01/additional-resources/</loc>
+  </url><url>
     <loc>https://hellormd.netlify.app/archives/</loc>
+  </url><url>
+    <loc>https://hellormd.netlify.app/categories/rmarkdown/</loc>
   </url>
 </urlset>

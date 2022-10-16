@@ -18,5 +18,18 @@ You can embed an R code chunk like this:
 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
     </item>
     
+    <item>
+      <title>Additional Resources</title>
+      <link>https://hellormd.netlify.app/1/01/additional-resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hellormd.netlify.app/1/01/additional-resources/</guid>
+      <description>Online Books to Learn R and Data Science
+  Data Analysis with R Programming Language by Thiyanga Talagala and Priyanga Talagala 
+These materials are designed and developed for a trainer-led workshop conducted by Thiyanga Talagala and Priyanga Talagala, but should be useful for self-guided learning as well.
+  R for Data Science by by Hadley Wickham and Garrett Grolemund
+This is a great data science book for beginners interested in learning data science with R.</description>
+    </item>
+    
   </channel>
 </rss>
