@@ -18,8 +18,8 @@ markup:
     ordered: no
     startLevel: 1
 author:
-  bio: Priyanga Dilini Talagala and Thiyanga S. Talagala
-  gravatarEmail: thibaud.lepretre@gmail.com
+  bio: Dr Priyanga Dilini Talagala and Dr Thiyanga S. Talagala
+  gravatarEmail: priyangad@uom.lk
   job: Reproducible Research with RMarkdown
   location: Sri Lanka
   name: RETINA - REvolutionising monitoring systems and Techniques in the INformation Age
@@ -83,7 +83,7 @@ params:
         language: en
         pagerDirection: first
         perPage: 10
-  coverImage: images/cover.jpg
+  coverImage: images/black.jpg
   customJS:
     - async: yes
       crossorigin: anonymous
