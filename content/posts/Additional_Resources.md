@@ -1,7 +1,7 @@
 ---
 categories:
-- tranquilpeak
-- features
+- R
+- RMarkdown
 date: "2022-10-1"
 tags:
 thumbnailImage: img/tools.jpeg
