@@ -3,16 +3,14 @@ autoThumbnailImage: false
 coverImage: img/Nature-Canva.jpeg
 date: "2022-10-15"
 keywords:
-- disqus
-- google
-- gravatar
+- Workshop
+- RMarkdown
+- Open Science
 metaAlignment: center
 tags:
-- hexo theme
-- responsive
-- gravatar
-- disqus
-- google analytics
+- OpenScience
+- RMarkdown
+- Quarto
 thumbnailImage: img/Nature-Canva.jpeg
 thumbnailImagePosition: top
 title: Welcome to the workshop on  Reproducible Research with R Markdown 
