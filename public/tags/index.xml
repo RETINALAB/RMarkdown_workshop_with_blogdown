@@ -1,54 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Hugo tranquilpeak theme</title>
+    <title>Tags on HelloRMarkdown</title>
     <link>https://hellormd.netlify.app/tags/</link>
-    <description>Recent content in Tags on Hugo tranquilpeak theme</description>
+    <description>Recent content in Tags on HelloRMarkdown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hellormd.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>disqus</title>
-      <link>https://hellormd.netlify.app/tags/disqus/</link>
+      <title>OpenScience</title>
+      <link>https://hellormd.netlify.app/tags/openscience/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://hellormd.netlify.app/tags/disqus/</guid>
+      <guid>https://hellormd.netlify.app/tags/openscience/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>google analytics</title>
-      <link>https://hellormd.netlify.app/tags/google-analytics/</link>
+      <title>Quarto</title>
+      <link>https://hellormd.netlify.app/tags/quarto/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://hellormd.netlify.app/tags/google-analytics/</guid>
+      <guid>https://hellormd.netlify.app/tags/quarto/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>gravatar</title>
-      <link>https://hellormd.netlify.app/tags/gravatar/</link>
+      <title>RMarkdown</title>
+      <link>https://hellormd.netlify.app/tags/rmarkdown/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://hellormd.netlify.app/tags/gravatar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hexo theme</title>
-      <link>https://hellormd.netlify.app/tags/hexo-theme/</link>
-      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/hexo-theme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>responsive</title>
-      <link>https://hellormd.netlify.app/tags/responsive/</link>
-      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/responsive/</guid>
+      <guid>https://hellormd.netlify.app/tags/rmarkdown/</guid>
       <description></description>
     </item>
     
@@ -94,141 +76,6 @@
       <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://hellormd.netlify.app/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cover image</title>
-      <link>https://hellormd.netlify.app/tags/cover-image/</link>
-      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/cover-image/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>github theme</title>
-      <link>https://hellormd.netlify.app/tags/github-theme/</link>
-      <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/github-theme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>highlight code</title>
-      <link>https://hellormd.netlify.app/tags/highlight-code/</link>
-      <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/highlight-code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>https://hellormd.netlify.app/tags/test/</link>
-      <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tag plugins</title>
-      <link>https://hellormd.netlify.app/tags/tag-plugins/</link>
-      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/tag-plugins/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>social</title>
-      <link>https://hellormd.netlify.app/tags/social/</link>
-      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/social/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tags</title>
-      <link>https://hellormd.netlify.app/tags/tags/</link>
-      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/tags/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pagination</title>
-      <link>https://hellormd.netlify.app/tags/pagination/</link>
-      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/pagination/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dailymotion</title>
-      <link>https://hellormd.netlify.app/tags/dailymotion/</link>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/dailymotion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>videos integration</title>
-      <link>https://hellormd.netlify.app/tags/videos-integration/</link>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/videos-integration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vimeo</title>
-      <link>https://hellormd.netlify.app/tags/vimeo/</link>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/vimeo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>youtube</title>
-      <link>https://hellormd.netlify.app/tags/youtube/</link>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/youtube/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>chinese</title>
-      <link>https://hellormd.netlify.app/tags/chinese/</link>
-      <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/chinese/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>image gallery</title>
-      <link>https://hellormd.netlify.app/tags/image-gallery/</link>
-      <pubDate>Mon, 18 Feb 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/image-gallery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>japanese</title>
-      <link>https://hellormd.netlify.app/tags/japanese/</link>
-      <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://hellormd.netlify.app/tags/japanese/</guid>
       <description></description>
     </item>
     
