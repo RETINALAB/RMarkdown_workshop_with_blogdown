@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>responsive on Hugo tranquilpeak theme</title>
-    <link>https://example.org/tags/responsive/</link>
+    <link>https://hellormd.netlify.app/tags/responsive/</link>
     <description>Recent content in responsive on Hugo tranquilpeak theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/responsive/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hellormd.netlify.app/tags/responsive/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Welcome to Reproducible Research with R Markdown</title>
-      <link>https://example.org/2022/10/welcome-to-reproducible-research-with-r-markdown/</link>
+      <title>Welcome to the workshop on  Reproducible Research with R Markdown</title>
+      <link>https://hellormd.netlify.app/2022/10/welcome-to-the-workshop-on-reproducible-research-with-r-markdown/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/2022/10/welcome-to-reproducible-research-with-r-markdown/</guid>
+      <guid>https://hellormd.netlify.app/2022/10/welcome-to-the-workshop-on-reproducible-research-with-r-markdown/</guid>
       <description>This workshop website is developed and maintained by Dr. Priyanga D. Talagala and Dr. Thiyanga S. Talagala
 This hands-on workshop aims to equip participants with the fundamentals of reproducible research with R Markdown and related tools. This is designed for those who have no or little prior experience with R Markdown and who want to learn Quarto the next generation of R Markdown for publishing, including dynamic and static documents and multi-lingual programming language support.</description>
     </item>
