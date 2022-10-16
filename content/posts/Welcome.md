@@ -24,7 +24,7 @@ title: Welcome to the workshop on  Reproducible Research with R Markdown
 
 **The workshop will be taught in a similar style to Data Carpentry workshops. Data Carpentry's mission is to train researchers in the core data skills for efficient, shareable, and reproducible research practices.**
  
-*These materials are designed and developed for a trainer-led workshop at the Research Lounge on October 18, 2022, organized by the Faculty of Graduate Studies and University Library, University of Moratuwa, Sri Lanka, but should be useful for self-guided learning as well.*
+*These materials are designed and developed for a trainer-led workshop at the Research Lounge Meet on October 18, 2022, organized by the Faculty of Graduate Studies and University Library, University of Moratuwa, Sri Lanka, but should be useful for self-guided learning as well.*
 
 ## Content
 
