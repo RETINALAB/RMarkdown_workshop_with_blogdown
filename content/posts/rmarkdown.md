@@ -16,27 +16,29 @@ title: Introduction to R Markdown
 
 ## Resourses
 
-Slides: [Click here](/slides/2rtmarkdown/rmarkdown_uom.html)
+Slides: [Click here](/slides/2rmarkdown/rmarkdown_uom.html)
 
 ## YouTube video 
 
-### Part 1: Introduction to R Markdown
+## YouTube video 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=CuEmqCflboI&t=61s" frameborder="0" allowfullscreen></iframe>
+> Part 1: Introduction to R Markdown
 
-### Part 2: Creating an RMarkdown document in RStudio
+[Click here](https://www.youtube.com/watch?v=CuEmqCflboI&t=61s)
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Gr7JFx69BgE&t=48s" frameborder="0" allowfullscreen></iframe>
+> Part 2: Creating an RMarkdown document in RStudio
+
+[Click here](https://www.youtube.com/watch?v=Gr7JFx69BgE&t=48s)
 
 
-### Part 3: Include headings, text formatting
+> Part 3: Include headings, text formatting
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=IUNHJTFwqY4" frameborder="0" allowfullscreen></iframe>
+[Click here](https://www.youtube.com/watch?v=IUNHJTFwqY4)
 
-### Part 4: Bullet points, ordered list, chunk options 
+> Part 4: Bullet points, ordered list, chunk options 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=v5hFTP8SxiY" frameborder="0" allowfullscreen></iframe>
+[Click here](https://www.youtube.com/watch?v=v5hFTP8SxiY)
 
-### Part 5: Type mathematical equations, include tables and external images
+>Part 5: Type mathematical equations, include tables and external images
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=8vpTMNDgW3I&t=47s" frameborder="0" allowfullscreen></iframe>
+[Click here](https://www.youtube.com/watch?v=8vpTMNDgW3I&t=47s)
