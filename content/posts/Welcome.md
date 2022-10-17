@@ -1,6 +1,6 @@
 ---
 autoThumbnailImage: false
-coverImage: img/Nature-Canva.jpeg
+coverImage: img/Nature-Canva.png
 date: "2022-10-15"
 keywords:
 - Workshop
@@ -11,7 +11,7 @@ tags:
 - OpenScience
 - RMarkdown
 - Quarto
-thumbnailImage: img/Nature-Canva.jpeg
+thumbnailImage: img/Nature-Canva.png
 thumbnailImagePosition: top
 title: Welcome to the Workshop on  Reproducible Research with R Markdown 
 ---
