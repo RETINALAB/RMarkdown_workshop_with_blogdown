@@ -229,3 +229,19 @@ An R Markdown thesis template for the University of Moratuwa
 
 Development version  at : "https://github.com/RETINALAB/moradown"
 
+---
+# moradown
+.pull-left[
+```{r   out.width = "60%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/uomthesis1.png")
+
+```
+
+].pull-right[
+
+```{r   out.width = "60%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/uomthesis2.png")
+
+```
+
+]
