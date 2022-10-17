@@ -385,7 +385,7 @@ class: inverse, middle, center
 
 # Reproducible Research
 
-"Reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the <span style="color:red"> same materials </span> as were used by the original investigator. That is, a second researcher might use the same raw data to build the same analysis files and implement the same statistical analysis in an attempt to yield the same results....
+"Reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the <span style="color:red"> same materials </span> (data, software code, etc.) as were used by the original investigator. That is, a second researcher might use the same raw data to build the same analysis files and implement the same statistical analysis in an attempt to yield the same results....
 
 <span style="color:red"> Reproducibility is a minimum necessary condition for a finding to be believable and informative. </span>”
 
@@ -394,6 +394,39 @@ class: inverse, middle, center
 <font size="4">Source: Goodman, Steven N, Daniele Fanelli, and John P A Ioannidis. 2016. “What does research reproducibility mean?” Science Translational Medicine 8 (341): 1–6. https://doi.org/10.1126/scitranslmed.aaf5027.</font>
 
 ---
+
+# Traditional approach to writing reports*
+
+- Import data set into statistical software package
+
+- Run the procedure to get results
+
+- Copy & paste appropriate pieces from the analysis into editor
+
+- Add descriptions
+
+- Finish/submit report
+
+.footnote[ Source: https://ismayc.github.io/talks/thesisdown17/slides.html#1]
+
+
+---
+
+## Disadvantages of this process *
+
+- Lots of manual work (prone to make errors)
+
+- Tedious (who likes to carefully copy-and-paste?)
+
+- Likely not recordable (did you write down all the steps you followed to get your analysis?) (Articles that may require revisions)
+
+- What if you made an error at the beginning of your analysis? If your data had an error?
+
+- Tech companies are moving more and more towards reproducible research/analysis to help with employee turnover
+
+.footnote[ Source: https://ismayc.github.io/talks/thesisdown17/slides.html#1]
+---
+
 
 class: inverse, middle, center
 
@@ -435,6 +468,7 @@ knitr::include_graphics("fig/reprod_crisis.png")
 
 <!-- Of these, we are most interested in methods reproducibility for the purposes of this chapter. That is, we will discuss how R can help you, as a researcher, improve in this aspect of reproducibilit
 -->
+
 
 ---
 class: inverse, middle center
