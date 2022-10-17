@@ -31,6 +31,25 @@ Harassment includes:
     </item>
     
     <item>
+      <title>Introduction to R Markdown</title>
+      <link>https://hellormd.netlify.app/2022/10/introduction-to-r-markdown/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hellormd.netlify.app/2022/10/introduction-to-r-markdown/</guid>
+      <description>Resourses Slides: Click here
+YouTube video YouTube video  Part 1: Introduction to R Markdown
+ Click here
+ Part 2: Creating an RMarkdown document in RStudio
+ Click here
+ Part 3: Include headings, text formatting
+ Click here
+ Part 4: Bullet points, ordered list, chunk options
+ Click here
+ Part 5: Type mathematical equations, include tables and external images
+ Click here</description>
+    </item>
+    
+    <item>
       <title>Reproducibility Crisis</title>
       <link>https://hellormd.netlify.app/2022/10/reproducibility-crisis/</link>
       <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
@@ -45,6 +64,25 @@ Harassment includes:
       <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hellormd.netlify.app/2022/10/reproducible-thesis-writing-with-r-markdown/</guid>
+      <description>Resourses Slides: Click here</description>
+    </item>
+    
+    <item>
+      <title>Reproducible manuscript writing with R Markdown</title>
+      <link>https://hellormd.netlify.app/2022/10/reproducible-manuscript-writing-with-r-markdown/</link>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hellormd.netlify.app/2022/10/reproducible-manuscript-writing-with-r-markdown/</guid>
+      <description>rticle R package : A suite of custom R Markdown formats and templates for authoring journal articles and conference submissions.
+Resourses Slides: Click here</description>
+    </item>
+    
+    <item>
+      <title>Reproducible presentation slides with R Markdown</title>
+      <link>https://hellormd.netlify.app/2022/10/reproducible-presentation-slides-with-r-markdown/</link>
+      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hellormd.netlify.app/2022/10/reproducible-presentation-slides-with-r-markdown/</guid>
       <description>Resourses Slides: Click here</description>
     </item>
     

@@ -35,6 +35,9 @@
     <loc>https://hellormd.netlify.app/categories/tranquilpeak/</loc>
     <lastmod>2022-10-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://hellormd.netlify.app/2022/10/introduction-to-r-markdown/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hellormd.netlify.app/tags/reproducibile-research/</loc>
     <lastmod>2022-10-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -44,11 +47,23 @@
     <loc>https://hellormd.netlify.app/tags/reproducibility-crisis/</loc>
     <lastmod>2022-10-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://hellormd.netlify.app/tags/rticle/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hellormd.netlify.app/2022/10/reproducible-thesis-writing-with-r-markdown/</loc>
     <lastmod>2022-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hellormd.netlify.app/tags/thesisdown/</loc>
     <lastmod>2022-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hellormd.netlify.app/2022/10/reproducible-manuscript-writing-with-r-markdown/</loc>
+    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hellormd.netlify.app/2022/10/reproducible-presentation-slides-with-r-markdown/</loc>
+    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hellormd.netlify.app/tags/xaringan/</loc>
+    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hellormd.netlify.app/2020/12/hello-r-markdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>

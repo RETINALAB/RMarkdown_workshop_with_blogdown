@@ -1,7 +1,7 @@
 ---
 title: "Reproducible thesis writing with R Markdown"
 institute: <span style="color:#06c280">Research Lounge Meet, University of Moratuwa</span>
-author: <span style="color:#06c280">Dr. Priyanga D. Talagala & Dr. Thiyanga S. Talagala </span>
+author: <span style="color:#06c280">Dr. Priyanga D. Talagala </span>
 
 date: <span style="color:#06c280">18/10/2022</span> </br></br>`r knitr::include_graphics("fig/thesisdownlogo.png")` 
 output:
@@ -149,7 +149,7 @@ class: inverse, middle, center
 
 # Tip
 
-You may need to restart RStudio at this point for the following dialog to show up.
+### You may need to restart RStudio at this point for the following dialog to show up.
 ---
 
 File > New Project > New Directory
@@ -169,3 +169,102 @@ Give your project a name and specify where you’d like the files to appear
 knitr::include_graphics("fig/thesis_proj2.png")
 
 ```
+
+---
+
+## Directory structure
+
+.pull-left[
+
+```{r   out.width = "60%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/thesisfolder1.png")
+
+```
+].pull-right[
+`index.Rmd`: Contains your YAML (metadata) that will tell bookdown how to render your book
+
+
+`.Rmd files` that comprise the body of your book
+
+`thesis.bib` is a bib file containing your references. Most popular reference management tools have the option to export your references to a .bib file.
+]
+
+---
+
+```{r   out.width = "100%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/output.png")
+
+```
+
+
+---
+
+.pull-left[
+```{r   out.width = "60%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/thesisfolder2.png")
+
+```
+
+].pull-right[
+
+[Generated thesis](https://github.com/RETINALAB/rmd_workshop_with_blogdown/blob/master/static/slides/3Thesisdown/fig/thesis.pdf)
+
+```{r   out.width = "60%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/output2.png")
+
+```
+
+[To learn more about different thesis templates visit https://github.com/ismayc/thesisdown](https://github.com/ismayc/thesisdown)
+]
+
+---
+class: inverse, middle, center
+
+# Coming Soon !!
+
+`r anicon::faa("bell", animate="ring", size =3, speed = "fast")`
+
+## morathesisdown
+
+An R Markdown thesis template for the University of Moratuwa
+
+Development version  at : "https://github.com/RETINALAB/morathesisdown"
+
+---
+# morathesisdown
+
+.pull-left[
+```{r   out.width = "70%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/uomthesis1.png")
+
+```
+
+].pull-right[
+
+```{r   out.width = "70%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/uomthesis2.png")
+
+```
+
+]
+
+---
+class: inverse, middle, center
+
+```{r}
+icon::fa("github")
+icon::fa("twitter")
+
+```
+pridiltal and thiyangt
+
+# Acknowledgements:
+
+This work was supported in part by RETINA research lab funded by the OWSD, a program unit of United Nations Educational, Scientific and Cultural Organization (UNESCO).
+
+
+All rights reserved by Thiyanga S. Talagala and Priyanga D Talagala
+
+
+
+
