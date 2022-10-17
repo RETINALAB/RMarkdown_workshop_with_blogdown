@@ -48,4 +48,124 @@ style_mono_accent(
   )
 ```
 
+class: inverse, middle, center
+# bookdown R package
 
+```{r   out.width = "20%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/bookdown.png")
+
+```
+
+- A open-source R package to facilitate writing books and long-form articles/reports with R Markdown.
+
+- Generate printer-ready books and ebooks from R Markdown documents
+]
+---
+class: inverse, middle, center
+.pull-left[
+```{r   out.width = "85%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/prithesis.png")
+
+```
+].pull-right[
+
+```{r   out.width = "100%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/thesiscode.png")
+
+```
+]
+
+---
+
+class: inverse, middle, center
+
+.pull-left[
+```{r   out.width = "75%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/bookdowncover.jpeg")
+
+```
+].pull-right[
+## Learn more about bookdown:
+
+https://pkgs.rstudio.com/bookdown/
+
+
+```{r   out.width = "50%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/bookdown.png")
+
+```
+
+You can install the package from CRAN as follows:
+
+install.packages("bookdown")
+]
+
+---
+
+class: inverse, middle, center
+
+# thesisdown
+
+```{r   out.width = "35%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/thesisdownlogo1.png")
+
+```
+
+Inspired by the bookdown package
+
+<!--This project was inspired by the bookdown package-->
+
+---
+
+## Prerequisites 
+
+
+- To compile PDF documents using R, you are going to need to have LaTeX installed.
+
+- By far the easiest way to install LaTeX on any platform is with the `tinytex` R package:
+
+```{r eval=FALSE, echo=TRUE}
+install.packages(c('tinytex', 'rmarkdown'))
+tinytex::install_tinytex()
+# after restarting RStudio, confirm that you have LaTeX with
+tinytex:::is_tinytex()
+```
+--
+
+- Install the `bookdown` and `thesisdown` packages.
+
+```{r eval=FALSE, echo=TRUE}
+
+if (!require("remotes")) 
+  install.packages("remotes", repos = "https://cran.rstudio.org")
+remotes::install_github("rstudio/bookdown")
+remotes::install_github("ismayc/thesisdown")
+```
+
+- Note that {thesisdown} is not available on CRAN at the moment and that’s why `install.packages("thesisdown")` won’t work.
+
+---
+class: inverse, middle, center
+
+# Tip
+
+You may need to restart RStudio at this point for the following dialog to show up.
+---
+
+File > New Project > New Directory
+
+Then select **Thesis Project using thesisdown**
+from the dropdown
+
+```{r   out.width = "70%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/thesis_proj1.png")
+
+```
+---
+
+Give your project a name and specify where you’d like the files to appear
+
+```{r   out.width = "70%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/thesis_proj2.png")
+
+```

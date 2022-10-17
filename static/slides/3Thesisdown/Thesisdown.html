@@ -67,6 +67,93 @@ class: inverse, middle, center
 # thesisdown
 
 &lt;img src="fig/thesisdownlogo1.png" width="35%" style="display: block; margin: auto;" /&gt;
+
+Inspired by the bookdown package
+
+&lt;!--This project was inspired by the bookdown package--&gt;
+
+---
+
+## Prerequisites 
+
+
+- To compile PDF documents using R, you are going to need to have LaTeX installed.
+
+- By far the easiest way to install LaTeX on any platform is with the `tinytex` R package:
+
+
+```r
+install.packages(c('tinytex', 'rmarkdown'))
+tinytex::install_tinytex()
+# after restarting RStudio, confirm that you have LaTeX with
+tinytex:::is_tinytex()
+```
+--
+
+- Install the `bookdown` and `thesisdown` packages.
+
+
+```r
+if (!require("remotes")) 
+  install.packages("remotes", repos = "https://cran.rstudio.org")
+remotes::install_github("rstudio/bookdown")
+remotes::install_github("ismayc/thesisdown")
+```
+
+- Note that {thesisdown} is not available on CRAN at the moment and that’s why `install.packages("thesisdown")` won’t work.
+
+---
+class: inverse, middle, center
+
+# Tip
+
+You may need to restart RStudio at this point for the following dialog to show up.
+---
+
+File &gt; New Project &gt; New Directory
+
+Then select **Thesis Project using thesisdown**
+from the dropdown
+
+&lt;img src="fig/thesis_proj1.png" width="70%" style="display: block; margin: auto;" /&gt;
+---
+
+Give your project a name and specify where you’d like the files to appear
+
+&lt;img src="fig/thesis_proj2.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Directory structure
+
+.pull-left[
+
+&lt;img src="fig/thesisfolder1.png" width="60%" style="display: block; margin: auto;" /&gt;
+].pull-right[
+`index.Rmd`: Contains your YAML (metadata) that will tell bookdown how to render your book
+
+
+`.Rmd files` that comprise the body of your book
+
+`thesis.bib` is a bib file containing your references. Most popular reference management tools have the option to export your references to a .bib file.
+]
+
+---
+
+&lt;img src="fig/output.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+.pull-left[
+&lt;img src="fig/thesisfolder2.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+].pull-right[
+
+[Generated thesis](https://github.com/ismayc/thesisdown)
+
+[learn More about different templates visit https://github.com/ismayc/thesisdown](https://github.com/ismayc/thesisdown)
+]
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

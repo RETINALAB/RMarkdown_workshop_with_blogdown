@@ -110,3 +110,104 @@ class: inverse, middle, center
 knitr::include_graphics("fig/thesisdownlogo1.png")
 
 ```
+
+Inspired by the bookdown package
+
+<!--This project was inspired by the bookdown package-->
+
+---
+
+## Prerequisites 
+
+
+- To compile PDF documents using R, you are going to need to have LaTeX installed.
+
+- By far the easiest way to install LaTeX on any platform is with the `tinytex` R package:
+
+```{r eval=FALSE, echo=TRUE}
+install.packages(c('tinytex', 'rmarkdown'))
+tinytex::install_tinytex()
+# after restarting RStudio, confirm that you have LaTeX with
+tinytex:::is_tinytex()
+```
+--
+
+- Install the `bookdown` and `thesisdown` packages.
+
+```{r eval=FALSE, echo=TRUE}
+
+if (!require("remotes")) 
+  install.packages("remotes", repos = "https://cran.rstudio.org")
+remotes::install_github("rstudio/bookdown")
+remotes::install_github("ismayc/thesisdown")
+```
+
+- Note that {thesisdown} is not available on CRAN at the moment and that’s why `install.packages("thesisdown")` won’t work.
+
+---
+class: inverse, middle, center
+
+# Tip
+
+You may need to restart RStudio at this point for the following dialog to show up.
+---
+
+File > New Project > New Directory
+
+Then select **Thesis Project using thesisdown**
+from the dropdown
+
+```{r   out.width = "70%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/thesis_proj1.png")
+
+```
+---
+
+Give your project a name and specify where you’d like the files to appear
+
+```{r   out.width = "70%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/thesis_proj2.png")
+
+```
+
+---
+
+## Directory structure
+
+.pull-left[
+
+```{r   out.width = "60%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/thesisfolder1.png")
+
+```
+].pull-right[
+`index.Rmd`: Contains your YAML (metadata) that will tell bookdown how to render your book
+
+
+`.Rmd files` that comprise the body of your book
+
+`thesis.bib` is a bib file containing your references. Most popular reference management tools have the option to export your references to a .bib file.
+]
+
+---
+
+```{r   out.width = "100%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/output.png")
+
+```
+
+
+---
+
+.pull-left[
+```{r   out.width = "60%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/thesisfolder2.png")
+
+```
+
+].pull-right[
+
+[Generated thesis](https://github.com/ismayc/thesisdown)
+
+[learn More about different templates visit https://github.com/ismayc/thesisdown](https://github.com/ismayc/thesisdown)
+]
