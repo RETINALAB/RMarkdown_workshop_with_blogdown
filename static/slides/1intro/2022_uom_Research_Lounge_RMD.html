@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Reproducible Research with RMarkdown</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Dr. Priyanga D. Talagala &amp; Dr. Thiyanga S. Talagala" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/font-awesome-animation/font-awesome-animation-emi.css" rel="stylesheet" />
+    <script src="libs/fontawesome/js/fontawesome-all.min.js"></script>
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Reproducible Research with RMarkdown
+### Dr. Priyanga D. Talagala &amp; Dr. Thiyanga S. Talagala
+### Research Lounge Meet, University of Moratuwa
+### 18-10-2022 </br> </br> <span style="color:#8dcefc"> Workshop Materials available at </br> hellormd.netlify.app </span><span>&lt;i class="fas  fa-globe fa-2x faa-ring animated faa-fast " style=" color:white;"&gt;&lt;/i&gt;</span>
+
+---
+
+
+
+
+
+
+
+class: inverse, middle, center
+
+# Who we are?
+---
+class: center
+
+.pull-left[
+
+&lt;img src="fig/thiyanga2.png" width="40%" style="display: block; margin: auto;" /&gt;
+
+Thiyanga S. Talagala
+
+PhD, Monash University, Australia
+
+Senior Lecturer, University of Sri Jayewardenepura
+
+<i class="fas  fa-globe "></i>
+thiyanga.netlify.app
+
+<i class="fab  fa-github "></i><i class="fab  fa-twitter "></i>
+thiyangt
+
+].pull-right[
+
+&lt;img src="fig/priyanga2.png" width="40%" style="display: block; margin: auto;" /&gt;
+
+Priyanga D. Talagala
+
+PhD, Monash University, Australia
+
+Senior Lecturer, University of Moratuwa
+
+<i class="fas  fa-globe "></i>
+prital.netlify.app
+
+<i class="fab  fa-github "></i><i class="fab  fa-twitter "></i>
+pridiltal
+]
+--
+
+-  Associate Investigator of the Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS).
+--
+
+- Associate Editor for The R Journal (Scimago Journal &amp; Country Rank Q1, ERA ranking A* )
+
+---
+
+class: inverse, middle, center
+
+### Co-founders and co-organizers of R Ladies Colombo
+
+## R-Ladies Global 
+
+&lt;img src="fig/globalhexSticker.png" width="20%" style="display: block; margin: auto;" /&gt;
+
+<i class="fas  fa-globe "></i>
+https://rladies.org/
+
+<i class="fab  fa-twitter "></i>
+RLadiesGlobal
+
+---
+background-image:url('fig/talks.jpg')
+background-position: 60% 100%
+background-size: 100%
+class: top, center
+
+.pull-left[
+## R-Ladies Global 
+### &lt;span style="color:black"&gt; 216 Chapters&lt;/span&gt;
+
+### &lt;span style="color:black"&gt; 100267 Members &lt;/span&gt;
+
+### &lt;span style="color:black"&gt; 61 Countries&lt;/span&gt;
+]
+.pull-right[
+&lt;img src="fig/RL.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;font size="2"&gt; Source: https://benubah.github.io/r-community-explorer/rladies.html&lt;/font&gt;
+]
+
+---
+
+background-image:url('fig/Rjourney2.png')
+background-position: 50% 50%
+background-size: 110%
+class: top, center, inverse
+---
+background-image:url('fig/Rjourney1.png')
+background-position: 50% 50%
+background-size: 110%
+class: top, center, inverse
+---
+class:  middle, center
+
+# Why RLadies Colombo?
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="fig/RL.png" alt="R-Ladies Across Regions" width="80%" /&gt;
+&lt;p class="caption"&gt;R-Ladies Across Regions&lt;/p&gt;
+&lt;/div&gt;
+&lt;font size="2"&gt; Source: https://benubah.github.io/r-community-explorer/rladies.html&lt;/font&gt;
+---
+background-image:url('fig/RLcol.png')
+background-position: 50% 90%
+background-size: 100%
+class: top, left, inverse
+
+.pull-left[
+# R-Ladies Colombo
+]
+.pull-right[
+<i class="fas  fa-globe "></i>
+rladiescolombo.netlify.app
+
+<i class="fab  fa-twitter "></i>
+RLadiesColombo
+
+<i class="fab  fa-meetup "></i>
+www.meetup.com/rladies-colombo/
+]
+---
+class: inverse, middle, center
+
+## Main developer and  the main maintainer of several R packages on CRAN
+
+---
+class: inverse, center, middle
+# Code of conduct
+
+This workshop series is dedicated to providing a harassment-free experience for **EVERYONE**.
+
+To ensure a &lt;span style="color:#8dcefc"&gt; safe, enjoyable&lt;/span&gt; , and &lt;span style="color:#8dcefc"&gt; friendly&lt;/span&gt; experience for everyone who participates, we follow the [Workshop Code of Conduct](https://hellormd.netlify.app/2022/10/code-of-conduct/) 
+
+This code of conduct applies to all the spaces, including online workshops, Twitter, mailing lists, both online and offline.
+
+---
+class: inverse, middle, center
+
+# Why Learn R?
+&lt;img src="fig/Rlogo.png" width="30%" style="display: block; margin: auto;" /&gt;
+---
+.pull-left[
+
+#### `DSjobtracker` R Package (on CRAN, 2020)
+
+&lt;font size="4"&gt;by Statistical Consultancy Service, &lt;br/&gt;
+University of Sri Jayewardenepura, 2020
+https://thiyangt.github.io/DSjobtracker/
+ &lt;/font&gt;
+
+&lt;img src="fig/DSjobtrackerhexsticker.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+].pull-right[
+
+#### Top twenty skills required for data science jobs
+
+&lt;img src="2022_uom_Research_Lounge_RMD_files/figure-html/unnamed-chunk-17-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+&lt;!--Both of these datasets contain information about job vacancies related to data science--&gt;
+---
+
+
+class: inverse, middle, center
+
+# R Vs Python 
+
+---
+class: inverse, middle, center
+
+
+# ~~R Vs Python~~
+
+# R AND Python 
+--
+
+&lt;img src="2022_uom_Research_Lounge_RMD_files/figure-html/unnamed-chunk-18-1.png" width="40%" style="display: block; margin: auto;" /&gt;
+---
+class: inverse, middle, center
+
+
+# ~~R Vs Python~~
+
+# R AND Python 
+
+#  &lt;span style="color:SkyBlue"&gt;Stay&lt;/span&gt; &lt;span style="color:orange"&gt;TUNED !!&lt;/span&gt; 
+&lt;!--<span>&lt;i class="fas  fa-bell faa-ring animated faa-fast "&gt;&lt;/i&gt;</span>
+--&gt;
+
+.pull-left[
+
+&lt;img src="fig/Rlogo.png" width="25%" style="display: block; margin: auto;" /&gt;
+
+ +
+&lt;img src="fig/python.png" width="35%" style="display: block; margin: auto;" /&gt;
+
+].pull-right[
+
+<span class=" faa-wrench animated fa-border" style=" background:#9BB1FF; display: -moz-inline-stack; display: inline-block; transform: rotate(0deg);">&lt;img src="fig/quarto.png" style="height:3.5em; width:auto; " align="middle"/&gt;</span>
+]
+
+
+---
+background-image:url('fig/tidyworkflow1.png')
+background-position: 60% 80%
+background-size: 85%
+class: top, center
+# Tidy Workflow
+---
+background-image:url('fig/tidyworkflow2.png')
+background-position: 60% 80%
+background-size: 85%
+class: top, center
+
+# Tidy Workflow
+
+---
+class: inverse, middle, center
+
+## Reproducible Research
+
+&lt;img src="fig/reprod.png" width="90%" style="display: block; margin: auto;" /&gt;
+---
+class: inverse, middle, center
+
+# Reproducible Research
+
+"Reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the &lt;span style="color:red"&gt; same materials &lt;/span&gt; as were used by the original investigator. That is, a second researcher might use the same raw data to build the same analysis files and implement the same statistical analysis in an attempt to yield the same results....
+
+&lt;span style="color:red"&gt; Reproducibility is a minimum necessary condition for a finding to be believable and informative. &lt;/span&gt;”
+
+   - U.S. National Science Foundation (NSF) subcommittee on replicability in science - 
+
+&lt;font size="4"&gt;Source: Goodman, Steven N, Daniele Fanelli, and John P A Ioannidis. 2016. “What does research reproducibility mean?” Science Translational Medicine 8 (341): 1–6. https://doi.org/10.1126/scitranslmed.aaf5027.&lt;/font&gt;
+
+---
+
+class: inverse, middle, center
+
+.pull-left[
+# Reproducibility crisis
+
+"...Reproducibility crisis is an ongoing methodological crisis in which it has been found that the results of many scientific studies are difficult or impossible to reproduce. 
+
+...Because the reproducibility of empirical results is an essential part of the scientific method, such failures undermine the credibility of theories building on them and potentially call into question substantial parts of scientific knowledge..."
+
+           -  Wikipedia, 2022
+           
+&lt;font size="4"&gt; Ioannidis, J. P. (2005). Why most published research findings are false. PLoS medicine, 2(8), e124.&lt;/font&gt;
+].pull-right[
+
+&lt;img src="fig/reprod_crisis.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+
+
+]
+---
+
+## Reproducible Research
+
+### Methods Reproducibility
+
+  The provision of enough detail about **study procedures** and **data** so the same procedures could be exactly repeated with the same data
+  
+### Results Reproducibility 
+
+   Obtaining the same results from the conduct of an independent study whose **procedures are as closely matched** to the original experiment as possible with **independent data**
+   
+### Inferential Reproducibility 
+
+  Drawing of qualitatively **similar conclusions** from either an independent replication of a study or a reanalysis of the original study
+
+&lt;!-- Of these, we are most interested in methods reproducibility for the purposes of this chapter. That is, we will discuss how R can help you, as a researcher, improve in this aspect of reproducibilit
+--&gt;
+
+---
+class: inverse, middle center
+
+
+&lt;img src="fig/rmarkdown.png" width="30%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: inverse, middle, center
+
+<i class="fab  fa-twitter "></i>
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;I haven’t even heard of latex or markdown, makes me feel a tad old 😢&lt;/p&gt;&amp;mdash; Oscar Jonsson (@OAJonsson) &lt;a href="https://twitter.com/OAJonsson/status/1162473463174635520?ref_src=twsrc%5Etfw"&gt;August 16, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+
+---
+class: inverse, middle, center
+
+<i class="fab  fa-twitter "></i>
+
+.pull-left[
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;I also wrote my recent &lt;a href="https://twitter.com/OReillyMedia?ref_src=twsrc%5Etfw"&gt;@OReillyMedia&lt;/a&gt; book in Jupyter notebooks: &lt;a href="https://t.co/YOvGLm9dxu"&gt;https://t.co/YOvGLm9dxu&lt;/a&gt;&lt;br&gt;&lt;br&gt;I wouldn&amp;#39;t say it&amp;#39;s the best option for &amp;quot;formal&amp;quot; publishing—I&amp;#39;d prefer something closer to rmarkdown / bookdown—but Jupyter certainly worked well enough for me!&lt;/p&gt;&amp;mdash; Jake VanderPlas (@jakevdp) &lt;a href="https://twitter.com/jakevdp/status/948943224390889473?ref_src=twsrc%5Etfw"&gt;January 4, 2018&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+] .pull-right[
+&lt;img src="fig/PDSH-cover.png" width="80%" style="display: block; margin: auto;" /&gt;
+]
+---
+class: inverse, middle, center
+
+<i class="fab  fa-twitter "></i>
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Plus you can mix up multiple languages in single Rmd if you need to. I don&amp;#39;t think that is possible with Jupyter. You can even exchange data between python and R using the reticulate package.&lt;/p&gt;&amp;mdash; Jerry Thomas (@jerrythomas_in) &lt;a href="https://twitter.com/jerrythomas_in/status/1030691102624382976?ref_src=twsrc%5Etfw"&gt;August 18, 2018&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+---
+
+class: inverse, middle center
+
+# Buckle Up!
+
+
+&lt;img src="fig/rmarkdown.png" width="23%" style="display: block; margin: auto;" /&gt;
+--
+
+# ON YOUR MARKS, GET SET, GO!!
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"ratio": "16:9",
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
