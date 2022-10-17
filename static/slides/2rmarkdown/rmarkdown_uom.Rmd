@@ -2,19 +2,18 @@
 title: "R Markdown"
 subtitle: "Communicate in a SMART way!"
 author: "Research Lounge Meet, University of Moratuwa"
-institute: "<br/>Dr. Priyanga D. Talagala & Dr. Thiyanga S. Talagala"
+institute: "<br/>Dr. Thiyanga S. Talagala"
 date: "October 17, 2022"
 output:
   xaringan::moon_reader:
-    css: [default, kunoichi, chocolate-fonts]
     lib_dir: libs
+    css: [default,  chocolate-fonts, "thi.css"]
     nature:
       ratio: "16:9"
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
 ---
-
 
 class: middle center bg-main1
 
@@ -1021,7 +1020,7 @@ class: middle center bg-main1
 
 ## `r anicon::nia("Make some VOICE using R Makrkdown!", size=9)`
 
-Slides are available at [https://thiyanga.netlify.app/talk/nigeria/](https://thiyanga.netlify.app/talk/nigeria/) 
+Slides are available at [https://hellormd.netlify.app/](https://hellormd.netlify.app/) 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
