@@ -1,9 +1,9 @@
 ---
 title: "Reproducible thesis writing with R Markdown"
 institute: <span style="color:#06c280">Research Lounge Meet, University of Moratuwa</span>
-author: <span style="color:#06c280">Dr. Priyanga D. Talagala & Dr. Thiyanga S. Talagala </span>
+author: <span style="color:#06c280">Dr. Priyanga D. Talagala</span>
 
-date: <span style="color:#06c280">18/10/2022</span> </br></br>`r knitr::include_graphics("fig/thesisdownlogo.png")` 
+date: <span style="color:#06c280">18/10/2022</span> </br></br>`r knitr::include_graphics("fig/logo1.png")` 
 output:
   xaringan::moon_reader:
     css: ["default", "xaringan-themer.css" ]
@@ -49,183 +49,37 @@ style_mono_accent(
 ```
 
 class: inverse, middle, center
-# bookdown R package
+# rticle R package
 
 ```{r   out.width = "20%", echo = FALSE, fig.cap=''}
-knitr::include_graphics("fig/bookdown.png")
+knitr::include_graphics("fig/logo.png")
 
 ```
 
-- A open-source R package to facilitate writing books and long-form articles/reports with R Markdown.
-
-- Generate printer-ready books and ebooks from R Markdown documents
-]
----
-class: inverse, middle, center
-.pull-left[
-```{r   out.width = "85%", echo = FALSE, fig.cap=''}
-knitr::include_graphics("fig/prithesis.png")
-
-```
-].pull-right[
-
-```{r   out.width = "100%", echo = FALSE, fig.cap=''}
-knitr::include_graphics("fig/thesiscode.png")
-
-```
-]
-
+The rticles R package provides a suite of custom R Markdown LaTeX formats and templates for authoring journal articles and conference submissions. 
 ---
 
-class: inverse, middle, center
-
-.pull-left[
-```{r   out.width = "75%", echo = FALSE, fig.cap=''}
-knitr::include_graphics("fig/bookdowncover.jpeg")
-
-```
-].pull-right[
-## Learn more about bookdown:
-
-https://pkgs.rstudio.com/bookdown/
-
-
-```{r   out.width = "50%", echo = FALSE, fig.cap=''}
-knitr::include_graphics("fig/bookdown.png")
-
-```
-
-You can install the package from CRAN as follows:
-
-install.packages("bookdown")
-]
 
 ---
-
-class: inverse, middle, center
-
-# thesisdown
-
-```{r   out.width = "35%", echo = FALSE, fig.cap=''}
-knitr::include_graphics("fig/thesisdownlogo1.png")
-
-```
-
-Inspired by the bookdown package
-
-<!--This project was inspired by the bookdown package-->
-
----
-
-## Prerequisites 
-
-
-- To compile PDF documents using R, you are going to need to have LaTeX installed.
-
-- By far the easiest way to install LaTeX on any platform is with the `tinytex` R package:
-
-```{r eval=FALSE, echo=TRUE}
-install.packages(c('tinytex', 'rmarkdown'))
-tinytex::install_tinytex()
-# after restarting RStudio, confirm that you have LaTeX with
-tinytex:::is_tinytex()
-```
---
-
-- Install the `bookdown` and `thesisdown` packages.
-
-```{r eval=FALSE, echo=TRUE}
-
-if (!require("remotes")) 
-  install.packages("remotes", repos = "https://cran.rstudio.org")
-remotes::install_github("rstudio/bookdown")
-remotes::install_github("ismayc/thesisdown")
-```
-
-- Note that {thesisdown} is not available on CRAN at the moment and that’s why `install.packages("thesisdown")` won’t work.
 
 ---
 class: inverse, middle, center
 
-# Tip
-
-### You may need to restart RStudio at this point for the following dialog to show up.
----
-
-File > New Project > New Directory
-
-Then select **Thesis Project using thesisdown**
-from the dropdown
-
-```{r   out.width = "70%", echo = FALSE, fig.cap=''}
-knitr::include_graphics("fig/thesis_proj1.png")
+```{r}
+icon::fa("github")
+icon::fa("twitter")
 
 ```
----
+pridiltal and thiyangt
 
-Give your project a name and specify where you’d like the files to appear
+# Acknowledgements:
 
-```{r   out.width = "70%", echo = FALSE, fig.cap=''}
-knitr::include_graphics("fig/thesis_proj2.png")
-
-```
-
----
-
-## Directory structure
-
-.pull-left[
-
-```{r   out.width = "60%", echo = FALSE, fig.cap=''}
-knitr::include_graphics("fig/thesisfolder1.png")
-
-```
-].pull-right[
-`index.Rmd`: Contains your YAML (metadata) that will tell bookdown how to render your book
+This work was supported in part by RETINA research lab funded by the OWSD, a program unit of United Nations Educational, Scientific and Cultural Organization (UNESCO).
 
 
-`.Rmd files` that comprise the body of your book
-
-`thesis.bib` is a bib file containing your references. Most popular reference management tools have the option to export your references to a .bib file.
-]
-
----
-
-```{r   out.width = "100%", echo = FALSE, fig.cap=''}
-knitr::include_graphics("fig/output.png")
-
-```
+All rights reserved by Thiyanga S. Talagala and Priyanga D Talagala
 
 
----
 
-.pull-left[
-```{r   out.width = "60%", echo = FALSE, fig.cap=''}
-knitr::include_graphics("fig/thesisfolder2.png")
 
-```
-
-].pull-right[
-
-[Generated thesis](https://github.com/RETINALAB/rmd_workshop_with_blogdown/blob/master/static/slides/3Thesisdown/fig/thesis.pdf)
-
-```{r   out.width = "60%", echo = FALSE, fig.cap=''}
-knitr::include_graphics("fig/output2.png")
-
-```
-
-[To learn more about different thesis templates visit https://github.com/ismayc/thesisdown](https://github.com/ismayc/thesisdown)
-]
-
----
-class: inverse, middle, center
-
-# Coming Soon !!
-
-`r anicon::faa("bell", animate="ring", size =3, speed = "fast")`
-
-## moradown 
-An R Markdown thesis template for the University of Moratuwa
-
-Development version  at : "https://github.com/RETINALAB/moradown"
 

@@ -1,7 +1,7 @@
 ---
 title: "Reproducible thesis writing with R Markdown"
 institute: <span style="color:#06c280">Research Lounge Meet, University of Moratuwa</span>
-author: <span style="color:#06c280">Dr. Priyanga D. Talagala & Dr. Thiyanga S. Talagala </span>
+author: <span style="color:#06c280">Dr. Priyanga D. Talagala </span>
 
 date: <span style="color:#06c280">18/10/2022</span> </br></br>`r knitr::include_graphics("fig/thesisdownlogo.png")` 
 output:
@@ -224,24 +224,47 @@ class: inverse, middle, center
 
 `r anicon::faa("bell", animate="ring", size =3, speed = "fast")`
 
-## moradown 
+## morathesisdown
+
 An R Markdown thesis template for the University of Moratuwa
 
-Development version  at : "https://github.com/RETINALAB/moradown"
+Development version  at : "https://github.com/RETINALAB/morathesisdown"
 
 ---
-# moradown
+# morathesisdown
+
 .pull-left[
-```{r   out.width = "60%", echo = FALSE, fig.cap=''}
+```{r   out.width = "70%", echo = FALSE, fig.cap=''}
 knitr::include_graphics("fig/uomthesis1.png")
 
 ```
 
 ].pull-right[
 
-```{r   out.width = "60%", echo = FALSE, fig.cap=''}
+```{r   out.width = "70%", echo = FALSE, fig.cap=''}
 knitr::include_graphics("fig/uomthesis2.png")
 
 ```
 
 ]
+
+---
+class: inverse, middle, center
+
+```{r}
+icon::fa("github")
+icon::fa("twitter")
+
+```
+pridiltal and thiyangt
+
+# Acknowledgements:
+
+This work was supported in part by RETINA research lab funded by the OWSD, a program unit of United Nations Educational, Scientific and Cultural Organization (UNESCO).
+
+
+All rights reserved by Thiyanga S. Talagala and Priyanga D Talagala
+
+
+
+

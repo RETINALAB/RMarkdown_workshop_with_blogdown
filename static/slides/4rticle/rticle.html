@@ -3,11 +3,10 @@
   <head>
     <title>Reproducible thesis writing with R Markdown</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Dr. Priyanga D. Talagala &amp; Dr. Thiyanga S. Talagala " />
+    <meta name="author" content="Dr. Priyanga D. Talagala" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
-    <link href="libs/font-awesome-animation/font-awesome-animation-emi.css" rel="stylesheet" />
-    <script src="libs/fontawesome/js/fontawesome-all.min.js"></script>
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
   <body>
@@ -15,9 +14,9 @@
 class: center, middle, inverse, title-slide
 
 # Reproducible thesis writing with R Markdown
-### <span style="color:#06c280">Dr. Priyanga D. Talagala &amp; Dr. Thiyanga S. Talagala </span>
+### <span style="color:#06c280">Dr. Priyanga D. Talagala</span>
 ### <span style="color:#06c280">Research Lounge Meet, University of Moratuwa</span>
-### <span style="color:#06c280">18/10/2022</span> </br></br><img src="fig/thesisdownlogo.png" width="223" />
+### <span style="color:#06c280">18/10/2022</span> </br></br><img src="fig/logo1.png" width="213" />
 
 ---
 
@@ -26,150 +25,32 @@ class: center, middle, inverse, title-slide
 
 
 class: inverse, middle, center
-# bookdown R package
+# rticle R package
 
-&lt;img src="fig/bookdown.png" width="20%" style="display: block; margin: auto;" /&gt;
+&lt;img src="fig/logo.png" width="20%" style="display: block; margin: auto;" /&gt;
 
-- A open-source R package to facilitate writing books and long-form articles/reports with R Markdown.
-
-- Generate printer-ready books and ebooks from R Markdown documents
-]
----
-class: inverse, middle, center
-.pull-left[
-&lt;img src="fig/prithesis.png" width="85%" style="display: block; margin: auto;" /&gt;
-].pull-right[
-
-&lt;img src="fig/thesiscode.png" width="100%" style="display: block; margin: auto;" /&gt;
-]
-
+The rticles R package provides a suite of custom R Markdown LaTeX formats and templates for authoring journal articles and conference submissions. 
 ---
 
-class: inverse, middle, center
-
-.pull-left[
-&lt;img src="fig/bookdowncover.jpeg" width="75%" style="display: block; margin: auto;" /&gt;
-].pull-right[
-## Learn more about bookdown:
-
-https://pkgs.rstudio.com/bookdown/
-
-
-&lt;img src="fig/bookdown.png" width="50%" style="display: block; margin: auto;" /&gt;
-
-You can install the package from CRAN as follows:
-
-install.packages("bookdown")
-]
 
 ---
-
-class: inverse, middle, center
-
-# thesisdown
-
-&lt;img src="fig/thesisdownlogo1.png" width="35%" style="display: block; margin: auto;" /&gt;
-
-Inspired by the bookdown package
-
-&lt;!--This project was inspired by the bookdown package--&gt;
-
----
-
-## Prerequisites 
-
-
-- To compile PDF documents using R, you are going to need to have LaTeX installed.
-
-- By far the easiest way to install LaTeX on any platform is with the `tinytex` R package:
-
-
-```r
-install.packages(c('tinytex', 'rmarkdown'))
-tinytex::install_tinytex()
-# after restarting RStudio, confirm that you have LaTeX with
-tinytex:::is_tinytex()
-```
---
-
-- Install the `bookdown` and `thesisdown` packages.
-
-
-```r
-if (!require("remotes")) 
-  install.packages("remotes", repos = "https://cran.rstudio.org")
-remotes::install_github("rstudio/bookdown")
-remotes::install_github("ismayc/thesisdown")
-```
-
-- Note that {thesisdown} is not available on CRAN at the moment and that’s why `install.packages("thesisdown")` won’t work.
 
 ---
 class: inverse, middle, center
 
-# Tip
+<i class="fab  fa-github "></i><i class="fab  fa-twitter "></i>
+pridiltal and thiyangt
 
-### You may need to restart RStudio at this point for the following dialog to show up.
----
+# Acknowledgements:
 
-File &gt; New Project &gt; New Directory
-
-Then select **Thesis Project using thesisdown**
-from the dropdown
-
-&lt;img src="fig/thesis_proj1.png" width="70%" style="display: block; margin: auto;" /&gt;
----
-
-Give your project a name and specify where you’d like the files to appear
-
-&lt;img src="fig/thesis_proj2.png" width="70%" style="display: block; margin: auto;" /&gt;
-
----
-
-## Directory structure
-
-.pull-left[
-
-&lt;img src="fig/thesisfolder1.png" width="60%" style="display: block; margin: auto;" /&gt;
-].pull-right[
-`index.Rmd`: Contains your YAML (metadata) that will tell bookdown how to render your book
+This work was supported in part by RETINA research lab funded by the OWSD, a program unit of United Nations Educational, Scientific and Cultural Organization (UNESCO).
 
 
-`.Rmd files` that comprise the body of your book
-
-`thesis.bib` is a bib file containing your references. Most popular reference management tools have the option to export your references to a .bib file.
-]
-
----
-
-&lt;img src="fig/output.png" width="100%" style="display: block; margin: auto;" /&gt;
+All rights reserved by Thiyanga S. Talagala and Priyanga D Talagala
 
 
----
 
-.pull-left[
-&lt;img src="fig/thesisfolder2.png" width="60%" style="display: block; margin: auto;" /&gt;
 
-].pull-right[
-
-[Generated thesis](https://github.com/RETINALAB/rmd_workshop_with_blogdown/blob/master/static/slides/3Thesisdown/fig/thesis.pdf)
-
-&lt;img src="fig/output2.png" width="60%" style="display: block; margin: auto;" /&gt;
-
-[To learn more about different thesis templates visit https://github.com/ismayc/thesisdown](https://github.com/ismayc/thesisdown)
-]
-
----
-class: inverse, middle, center
-
-# Coming Soon !!
-
-<span>&lt;i class="fas  fa-bell fa-3x faa-ring animated faa-fast "&gt;&lt;/i&gt;</span>
-
-## moradown 
-An R Markdown thesis template for the University of Moratuwa
-
-Development version  at : "https://github.com/RETINALAB/moradown"
 
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
