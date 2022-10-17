@@ -11,7 +11,7 @@ tags:
 - Reproducibile research
 thumbnailImage: img/scientist.png
 thumbnailImagePosition: left
-title: Reproducibility crisis
+title: Reproducibility Crisis
 ---
 
 ![](/img/scientist.png)
