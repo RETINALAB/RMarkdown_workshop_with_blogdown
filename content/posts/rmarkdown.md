@@ -5,7 +5,7 @@ tags:
 - OpenScience
 - RMarkdown
 - rticle
-thumbnailImage: img/rmarkdown.png
+thumbnailImage: img/rmarkdownhex.png
 thumbnailImagePosition: left
 title: Introduction to R Markdown
 ---
