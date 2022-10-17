@@ -149,7 +149,7 @@ class: inverse, middle, center
 
 # Tip
 
-You may need to restart RStudio at this point for the following dialog to show up.
+### You may need to restart RStudio at this point for the following dialog to show up.
 ---
 
 File > New Project > New Directory
@@ -207,7 +207,25 @@ knitr::include_graphics("fig/thesisfolder2.png")
 
 ].pull-right[
 
-[Generated thesis](https://github.com/ismayc/thesisdown)
+[Generated thesis](https://github.com/RETINALAB/rmd_workshop_with_blogdown/blob/master/static/slides/3Thesisdown/fig/thesis.pdf)
 
-[learn More about different templates visit https://github.com/ismayc/thesisdown](https://github.com/ismayc/thesisdown)
+```{r   out.width = "60%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/output2.png")
+
+```
+
+[To learn more about different thesis templates visit https://github.com/ismayc/thesisdown](https://github.com/ismayc/thesisdown)
 ]
+
+---
+class: inverse, middle, center
+
+# Coming Soon !!
+
+`r anicon::faa("bell", animate="ring", size =3, speed = "fast")`
+
+## moradown 
+An R Markdown thesis template for the University of Moratuwa
+
+Development version  at : "https://github.com/RETINALAB/moradown"
+
