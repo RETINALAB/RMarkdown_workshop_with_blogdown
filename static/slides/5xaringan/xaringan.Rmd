@@ -118,7 +118,60 @@ knitr::include_graphics("fig/rmd6.png")
 knitr::include_graphics("fig/rmd7.png")
 
 ```
+---
 
+class: inverse, middle, center
+# Method 2: Presentation slides with xaringan
+
+```{r   out.width = "30%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/xaringan.png")
+
+```
+---
+## Method 2: Presentation slides with xaringan
+
+- The xaringan package is an R Markdown extension based on the JavaScript library remark.js (https://remarkjs.com) to generate HTML5 presentations of a different style.
+
+--
+
+# Install the xaringan package from Github:
+
+`remotes::install_github("yihui/xaringan")`
+
+---
+## Method 2: Presentation slides with xaringan
+- Create a new R Markdown document from the menu File -> New File -> R Markdown 
+
+```{r   out.width = "40%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/xaringan1.png")
+
+```
+---
+## Method 2: Presentation slides with xaringan
+
+From Template -> Ninja Presentation
+
+
+```{r   out.width = "50%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/xaringan2.png")
+
+```
+---
+## Method 2: Presentation slides with xaringan
+
+Click the Knit button to compile it.
+
+```{r   out.width = "80%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/xaringan3.png")
+
+```
+---
+
+## Resources
+
+- [GitHub - xaringan https://github.com/yihui/xaringan](https://github.com/yihui/xaringan)
+
+- [The full documentation as a presentation https://slides.yihui.org/xaringan/#1](https://slides.yihui.org/xaringan/#1)  
 ---
 class: inverse, middle, center
 
