@@ -48,4 +48,65 @@ style_mono_accent(
   )
 ```
 
+class: inverse, middle, center
+# bookdown R package
 
+```{r   out.width = "20%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/bookdown.png")
+
+```
+
+- A open-source R package to facilitate writing books and long-form articles/reports with R Markdown.
+
+- Generate printer-ready books and ebooks from R Markdown documents
+]
+---
+class: inverse, middle, center
+.pull-left[
+```{r   out.width = "85%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/prithesis.png")
+
+```
+].pull-right[
+
+```{r   out.width = "100%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/thesiscode.png")
+
+```
+]
+
+---
+
+class: inverse, middle, center
+
+.pull-left[
+```{r   out.width = "75%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/bookdowncover.jpeg")
+
+```
+].pull-right[
+## Learn more about bookdown:
+
+https://pkgs.rstudio.com/bookdown/
+
+
+```{r   out.width = "50%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/bookdown.png")
+
+```
+
+You can install the package from CRAN as follows:
+
+install.packages("bookdown")
+]
+
+---
+
+class: inverse, middle, center
+
+# thesisdown
+
+```{r   out.width = "35%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/thesisdownlogo1.png")
+
+```
