@@ -59,8 +59,158 @@ knitr::include_graphics("fig/logo.png")
 The rticles R package provides a suite of custom R Markdown LaTeX formats and templates for authoring journal articles and conference submissions. 
 ---
 
+.pull-left[
+
+```{r   out.width = "100%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/oddstream2.png")
+
+```
+
+].pull-right[
+
+```{r   out.width = "100%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/oddstream1.png")
+
+```
+
+]
+
+.footnote[ ERA ranking A* Journal, SJR Q1]
 
 ---
+# JCGS - Instructions for authors
+
+```{r   out.width = "100%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/JCGS.png")
+
+```
+---
+class: middle
+
+.pull-left[
+```{r   out.width = "100%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/WRR.png")
+
+```
+
+].pull-right[
+
+- ERA ranking A* Journal, SJR Q1
+
+- *"...I applaud the authors for making the code available in GitHub and for including the datasets used in this paper along with their code. That’s a nice touch...."*
+]
+---
+## Installation
+
+You can install and use rticles from CRAN as follows:
+
+`install.packages("rticles")`
+
+--
+
+## Templates
+
+- Different journal templates are available through the R package `rticle`.
+
+https://github.com/rstudio/rticles#templates
+
+
+--
+
+- You can also get the list of available journal names with `rticles::journals()`.
+
+---
+## Using rticles
+
+File -> New File -> R Markdown.
+
+```{r   out.width = "50%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/rmd1.png")
+
+```
+
+---
+It will open the dialog box where you can select from one of the available templates:
+
+Example 1: Journal of Open Source Software Article
+
+```{r   out.width = "50%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/JOSS1.png")
+
+```
+
+---
+## Directory structure
+
+Example 1: Journal of Open Source Software Article
+
+```{r   out.width = "100%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/JOSS2.png")
+
+```
+
+---
+## Example 1: Journal of Open Source Software Article
+
+```{r   out.width = "90%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/JOSS3.png")
+
+```
+
+
+---
+## Example 1: Journal of Open Source Software Article
+
+```{r   out.width = "90%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/JOSS5.png")
+
+```
+
+
+---
+
+## Directory structure
+
+Example 1: Journal of Open Source Software Article
+
+```{r   out.width = "100%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/JOSS4.png")
+
+```
+
+---
+
+## Example 2: IEEE Transactions Journal Article
+
+```{r   out.width = "50%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/IEEE1.png")
+
+```
+
+---
+## Example 2: IEEE Transactions Journal Article
+
+```{r   out.width = "80%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/IEEE2.png")
+
+```
+
+---
+## Example 2: IEEE Transactions Journal Article
+
+```{r   out.width = "80%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/IEEE3.png")
+
+```
+---
+## Directory structure
+
+Example 2: IEEE Transactions Journal Article
+
+```{r   out.width = "100%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/IEEE4.png")
+
+```
 
 ---
 class: inverse, middle, center
