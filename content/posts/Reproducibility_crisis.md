@@ -3,7 +3,12 @@ categories:
 - tranquilpeak
 - features
 date: "2022-10-13"
-tags:
+tags: 
+- OpenScience
+- RMarkdown
+- Quarto
+- Reproducibility crisis
+- Reproducibile research
 thumbnailImage: img/scientist.png
 thumbnailImagePosition: left
 title: Reproducibility crisis

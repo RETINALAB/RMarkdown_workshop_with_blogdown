@@ -17,5 +17,14 @@
 This hands-on workshop aims to equip participants with the fundamentals of reproducible research with R Markdown and related tools. This is designed for those who have no or little prior experience with R Markdown and who want to learn Quarto the next generation of R Markdown for publishing, including dynamic and static documents and multi-lingual programming language support.</description>
     </item>
     
+    <item>
+      <title>Reproducibility crisis</title>
+      <link>https://hellormd.netlify.app/2022/10/reproducibility-crisis/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hellormd.netlify.app/2022/10/reproducibility-crisis/</guid>
+      <description>Resourses Slides: Click here</description>
+    </item>
+    
   </channel>
 </rss>
