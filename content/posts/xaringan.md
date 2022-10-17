@@ -4,7 +4,7 @@ date: "2022-10-09"
 tags: 
 - OpenScience
 - RMarkdown
-- xaringan
+- blogdown
 thumbnailImage: img/xaringan.png
 thumbnailImagePosition: left
 title: Reproducible presentation slides with R Markdown

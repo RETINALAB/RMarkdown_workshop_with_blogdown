@@ -1,0 +1,195 @@
+---
+title: "Reproducible presentation slides with R Markdown"
+institute: <span style="color:#06c280">Research Lounge Meet, University of Moratuwa</span>
+author: <span style="color:#06c280">Dr. Priyanga D. Talagala</span>
+
+date: <span style="color:#06c280">18/10/2022</span> </br></br>`r knitr::include_graphics("fig/xaringan.png")` 
+output:
+  xaringan::moon_reader:
+    css: ["default", "xaringan-themer.css" ]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+options(htmltools.dir.version = FALSE)
+opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE,
+  cache.path = 'cache/',
+  fig.align = 'center',
+  cache = FALSE
+)
+library(anicon)
+
+```
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+   base_color = "#002c54",
+   title_slide_background_color = "#031642",
+  inverse_background_color = "#002c54",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+  title_slide_text_color = "#ffea00",
+  inverse_header_color = "#ffea00",
+   header_background_text_color = "#ffea00",
+   text_font_size = "1.2rem",
+   text_font_url = "#ffea00",
+  header_font_url = "#ffea00",
+  inverse_link_color = "#d70dde"
+  )
+```
+
+class: inverse, middle, center
+# Method 1: Presentation slides with R Markdown
+
+```{r   out.width = "30%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/rmarkdown.png")
+
+```
+
+---
+### Method 1: Presentation slides with R Markdown
+
+```{r   out.width = "50%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/rmd1.png")
+
+```
+
+---
+
+### Method 1: Presentation slides with R Markdown
+
+```{r   out.width = "60%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/rmd2.png")
+
+```
+
+---
+
+### Method 1: Presentation slides with R Markdown
+
+```{r   out.width = "100%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/rmd3.png")
+
+```
+---
+
+### Method 1: Presentation slides with R Markdown
+
+#### PDF output
+
+```{r   out.width = "70%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/rmd4.png")
+
+```
+
+---
+### Method 1: Presentation slides with R Markdown
+
+#### HTML output
+
+```{r   out.width = "80%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/rmd5.png")
+
+```
+---
+### Method 1: Presentation slides with R Markdown
+
+#### Powerpoint Presentation
+
+```{r   out.width = "70%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/rmd6.png")
+
+```
+---
+
+### Method 1: Presentation slides with R Markdown  
+
+```{r   out.width = "90%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/rmd7.png")
+
+```
+---
+
+class: inverse, middle, center
+# Method 2: Presentation slides with xaringan
+
+```{r   out.width = "30%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/xaringan.png")
+
+```
+---
+## Method 2: Presentation slides with xaringan
+
+- The xaringan package is an R Markdown extension based on the JavaScript library remark.js (https://remarkjs.com) to generate HTML5 presentations of a different style.
+
+--
+
+# Install the xaringan package from Github:
+
+`remotes::install_github("yihui/xaringan")`
+
+---
+## Method 2: Presentation slides with xaringan
+- Create a new R Markdown document from the menu File -> New File -> R Markdown 
+
+```{r   out.width = "40%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/xaringan1.png")
+
+```
+---
+## Method 2: Presentation slides with xaringan
+
+From Template -> Ninja Presentation
+
+
+```{r   out.width = "50%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/xaringan2.png")
+
+```
+---
+## Method 2: Presentation slides with xaringan
+
+Click the Knit button to compile it.
+
+```{r   out.width = "80%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/xaringan3.png")
+
+```
+---
+
+## Resources
+
+- [GitHub - xaringan https://github.com/yihui/xaringan](https://github.com/yihui/xaringan)
+
+- [The full documentation as a presentation https://slides.yihui.org/xaringan/#1](https://slides.yihui.org/xaringan/#1)  
+---
+class: inverse, middle, center
+
+```{r}
+icon::fa("github")
+icon::fa("twitter")
+
+```
+pridiltal and thiyangt
+
+# Acknowledgements:
+
+This work was supported in part by RETINA research lab funded by the OWSD, a program unit of United Nations Educational, Scientific and Cultural Organization (UNESCO).
+
+
+All rights reserved by Thiyanga S. Talagala and Priyanga D Talagala
+
+
+
+
+

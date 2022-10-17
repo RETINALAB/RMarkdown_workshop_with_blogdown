@@ -8,11 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hellormd.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Welcome to the Workshop on  Reproducible Research with R Markdown</title>
-      <link>https://hellormd.netlify.app/2022/10/welcome-to-the-workshop-on-reproducible-research-with-r-markdown/</link>
+      <title>Welcome to the Research Lounge- Reproducible Research with R Markdown</title>
+      <link>https://hellormd.netlify.app/2022/10/welcome-to-the-research-lounge-reproducible-research-with-r-markdown/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://hellormd.netlify.app/2022/10/welcome-to-the-workshop-on-reproducible-research-with-r-markdown/</guid>
+      <guid>https://hellormd.netlify.app/2022/10/welcome-to-the-research-lounge-reproducible-research-with-r-markdown/</guid>
       <description>This workshop website is developed and maintained by Dr. Priyanga D. Talagala and Dr. Thiyanga S. Talagala
 This hands-on workshop aims to equip participants with the fundamentals of reproducible research with R Markdown and related tools. This is designed for those who have no or little prior experience with R Markdown and who want to learn Quarto the next generation of R Markdown for publishing, including dynamic and static documents and multi-lingual programming language support.</description>
     </item>
@@ -78,23 +78,21 @@ Resourses Slides: Click here</description>
     </item>
     
     <item>
-      <title>Reproducible presentation slides with R Markdown</title>
-      <link>https://hellormd.netlify.app/2022/10/reproducible-presentation-slides-with-r-markdown/</link>
-      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+      <title>Online publishing with R Markdown</title>
+      <link>https://hellormd.netlify.app/2022/10/online-publishing-with-r-markdown/</link>
+      <pubDate>Sat, 08 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://hellormd.netlify.app/2022/10/reproducible-presentation-slides-with-r-markdown/</guid>
+      <guid>https://hellormd.netlify.app/2022/10/online-publishing-with-r-markdown/</guid>
       <description>Resourses Slides: Click here</description>
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>https://hellormd.netlify.app/2020/12/hello-r-markdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <title>Online publishing with R Markdown</title>
+      <link>https://hellormd.netlify.app/2022/10/online-publishing-with-r-markdown/</link>
+      <pubDate>Sat, 08 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://hellormd.netlify.app/2020/12/hello-r-markdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>https://hellormd.netlify.app/2022/10/online-publishing-with-r-markdown/</guid>
+      <description>Resourses Slides: Click here</description>
     </item>
     
     <item>

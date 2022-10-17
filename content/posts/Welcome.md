@@ -13,7 +13,7 @@ tags:
 - Quarto
 thumbnailImage: img/Nature-Canva.png
 thumbnailImagePosition: top
-title: Welcome to the Workshop on  Reproducible Research with R Markdown 
+title: Welcome to the Research Lounge- Reproducible Research with R Markdown 
 ---
 
 **This workshop website is developed and maintained by [Dr. Priyanga D. Talagala](https://prital.netlify.app/) and [Dr. Thiyanga S. Talagala](https://thiyanga.netlify.app/)**
