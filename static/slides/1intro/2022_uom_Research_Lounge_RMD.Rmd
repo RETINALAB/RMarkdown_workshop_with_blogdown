@@ -180,10 +180,6 @@ knitr::include_graphics("fig/RL.png")
 ```
 <font size="2"> Source: https://benubah.github.io/r-community-explorer/rladies.html</font>
 ---
-background-image:url('fig/RLcol.png')
-background-position: 50% 90%
-background-size: 100%
-class: top, left, inverse
 
 .pull-left[
 # R-Ladies Colombo
@@ -205,6 +201,11 @@ icon::fa("meetup")
 ```
 www.meetup.com/rladies-colombo/
 ]
+
+```{r   out.width = "70%", echo = FALSE, fig.cap='R-Ladies Across Regions'}
+knitr::include_graphics("fig/RLcol.png")
+
+```
 ---
 class: inverse, middle, center
 
@@ -220,7 +221,7 @@ knitr::include_graphics("fig/cran.png")
 class: inverse, center, middle
 # Code of conduct
 
-This workshop series is dedicated to providing a harassment-free experience for **EVERYONE**.
+This workshop series is dedicated to providing a harassment-free experience for <span style="color:#8dcefc"> EVERYONE</span>.
 
 To ensure a <span style="color:#8dcefc"> safe, enjoyable</span> , and <span style="color:#8dcefc"> friendly</span> experience for everyone who participates, we follow the [Workshop Code of Conduct](https://hellormd.netlify.app/2022/10/code-of-conduct/) 
 
@@ -238,6 +239,8 @@ knitr::include_graphics("fig/Rlogo.png")
 .pull-left[
 
 #### `DSjobtracker` R Package (on CRAN, 2020)
+
+DSjobtracker: What Skills and Qualifications are Required for Data Science Related Jobs?
 
 <font size="4">by Statistical Consultancy Service, <br/>
 University of Sri Jayewardenepura, 2020
@@ -422,11 +425,19 @@ class: inverse, middle, center
 
 - Lots of manual work (prone to make errors)
 
+--
+
 - Tedious (who likes to carefully copy-and-paste?)
+
+--
 
 - Likely not recordable (did you write down all the steps you followed to get your analysis?) (Articles that may require revisions)
 
+--
+
 - What if you made an error at the beginning of your analysis? If your data had an error?
+
+--
 
 - Tech companies are moving more and more towards reproducible research/analysis to help with employee turnover
 
@@ -475,6 +486,7 @@ knitr::include_graphics("fig/reprod_crisis.png")
 <!-- Of these, we are most interested in methods reproducibility for the purposes of this chapter. That is, we will discuss how R can help you, as a researcher, improve in this aspect of reproducibilit
 -->
 
+.footnote[https://tysonbarrett.com/Rstats/chapter-9-reproducible-workflow-with-rmarkdown.html]
 
 ---
 class: inverse, middle center
