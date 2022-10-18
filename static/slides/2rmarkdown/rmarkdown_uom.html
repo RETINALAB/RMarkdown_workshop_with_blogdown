@@ -4,7 +4,7 @@
     <title>R Markdown</title>
     <meta charset="utf-8" />
     <meta name="author" content="Research Lounge Meet, University of Moratuwa" />
-    <meta name="date" content="2022-10-17" />
+    <meta name="date" content="2022-10-18" />
     <script src="libs/header-attrs-2.17/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/chocolate-fonts.css" rel="stylesheet" />
@@ -16,11 +16,21 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # R Markdown
+]
+.subtitle[
 ## Communicate in a SMART way!
+]
+.author[
 ### Research Lounge Meet, University of Moratuwa
+]
+.institute[
 ### <br/>Dr. Thiyanga S. Talagala
-### October 17, 2022
+]
+.date[
+### October 18, 2022
+]
 
 ---
 
@@ -832,36 +842,6 @@ background-size:contain
 background-image:url("sc1/SC/s24.png")
 background-size:contain
 
----
-
-class: middle center bg-main1
-
-# R Markdown to R script
-
-<span>&lt;i class="fas  fa-cogs fa-5x faa-spin animated "&gt;&lt;/i&gt;</span>
-
-
----
-
-background-image:url("sc1/SC/s25.png")
-background-size:contain
-
----
-
-background-image:url("sc1/SC/s26.png")
-background-size:contain
-
----
-
-
-background-image:url("sc1/SC/s27.png")
-background-size:contain
-
----
-
-background-image:url("sc1/SC/s28.png")
-background-size:contain
-
 
 ---
 
@@ -1083,6 +1063,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable

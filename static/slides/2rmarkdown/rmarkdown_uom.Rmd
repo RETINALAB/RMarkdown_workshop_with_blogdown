@@ -3,7 +3,7 @@ title: "R Markdown"
 subtitle: "Communicate in a SMART way!"
 author: "Research Lounge Meet, University of Moratuwa"
 institute: "<br/>Dr. Thiyanga S. Talagala"
-date: "October 17, 2022"
+date: "October 18, 2022"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -820,36 +820,6 @@ background-size:contain
 ---
 
 background-image:url("sc1/SC/s24.png")
-background-size:contain
-
----
-
-class: middle center bg-main1
-
-# R Markdown to R script
-
-`r anicon::faa('cogs', animate='spin', size=5)`
-
-
----
-
-background-image:url("sc1/SC/s25.png")
-background-size:contain
-
----
-
-background-image:url("sc1/SC/s26.png")
-background-size:contain
-
----
-
-
-background-image:url("sc1/SC/s27.png")
-background-size:contain
-
----
-
-background-image:url("sc1/SC/s28.png")
 background-size:contain
 
 
