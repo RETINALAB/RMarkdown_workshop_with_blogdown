@@ -18,7 +18,6 @@ title: Introduction to R Markdown
 
 Slides: [Click here](/slides/2rmarkdown/rmarkdown_uom.html)
 
-## YouTube video 
 
 ## YouTube video 
 

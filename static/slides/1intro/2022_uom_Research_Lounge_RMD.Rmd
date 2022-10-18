@@ -210,6 +210,12 @@ class: inverse, middle, center
 
 ## Main developer and  the main maintainer of several R packages on CRAN
 
+
+```{r   out.width = "80%", echo = FALSE, fig.cap='R-Ladies Across Regions'}
+knitr::include_graphics("fig/cran.png")
+
+```
+
 ---
 class: inverse, center, middle
 # Code of conduct
